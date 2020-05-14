@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Coursearea Mini Project
+        </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body> 
+        <h1>Filter Fun</h1>
+        <div id="mainDiv"> 
+            <div id="canvasDiv">
+                <canvas id="picCanvas">
+
+                </canvas>
+                <h2>Load Image</h2>
+                <input type="file" multiple="false" accept="image/*" id="mainImage" onchange="loadImage()">
+                <label for="mainImage"><img src="pics/plus_button.png" height="10%" width="10%" id="plusButton"></label>
+                <div id="butDiv">
+                    <div id="row1">
+                        <input type="button"  id="grayscale" value="Grayscale">
+                        <input type="button"  id="red" value="Make Red">
+                        <input type="button"  id="flag" value="Flag">
+                        <input type="button"  id="opaque" value="Mosaic">
+
+                    </div>
+                    <div id="row2">
+                        
+                    </div>
+                </div>
+                <input type="button"  id="reset" value="Reset Image">
+               
+            </div>
+
+        </div>
+    </body>
+    <script src="duke.js"></script>
+    <script src="mproject.js"></script>
+</html>

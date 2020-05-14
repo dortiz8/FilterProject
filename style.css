@@ -1,0 +1,104 @@
+html{
+    min-height: 100%;
+    background-color: seashell;
+}
+
+body{
+    min-height: 100%;
+    width: 70%;
+    margin-left: 15%;
+    /* background-color: #f2f2e9; */
+}
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: solid 2px darkgrey;
+    margin-top: 3%;
+}
+#mainDiv{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+canvas{
+    border: solid 5px white;
+    display: inline-flex;
+    margin-bottom: 10px;
+    height: 59%;
+    width: 59%;
+}
+
+
+
+#mainImage{
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+#plusButton{
+    height: 8%;
+    width: 8%;
+    border-radius: 50%;
+    border: solid .08px whitesmoke;
+}
+#plusButton:hover{
+    cursor: pointer;
+   
+    
+}
+#plusButton:active{
+    height: 10%;
+    width: 10%; 
+    transition: ease-in;
+}
+#butDiv{
+    margin: 2% 0%;
+}
+
+#butDiv input{
+    height: 15%;
+    width: 15%;
+    padding: 5px 0px;
+    margin: 0% 2%;
+    color: whitesmoke;
+    background-color: gray;
+    border: solid 1px whitesmoke;
+    font-family: 'Roboto', sans-serif;;
+   
+}
+#butDiv input:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: gray;
+    border: solid 1px gray;
+}
+#butDiv input:focus{
+    background-color: lightblue;
+
+    color: gray;
+    border: solid 1px gray;
+}
+
+#reset{
+    height: 15%;
+    width: 15%;
+    padding: 5px 0px;
+    margin-right: 2%;
+    color: whitesmoke;
+    background-color: salmon; 
+    border: solid 1px whitesmoke;
+    font-family: 'Roboto', sans-serif;;
+}
+#reset:hover{
+    cursor: pointer;
+    background-color:  sandybrown;
+    color: whitesmoke;
+    border: solid 1px gray;
+}
+
+#reset:active{
+    background-color: saddlebrown;
+}
